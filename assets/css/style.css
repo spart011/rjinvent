@@ -1,0 +1,117 @@
+body {
+    background: #343a40;
+    color: #fff; 
+}
+
+.navbar {
+    border-bottom: #002752 3px solid;
+    opacity:0.8;
+    background: whitesmoke;
+}
+#home-section{
+    background: url('../../img/located.jpg') no-repeat;    
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-inner{
+    padding-top: 150px;
+}
+.dark-overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+.display-4{
+    color: #fff;
+}
+#transportRoutes-section{
+    background: url('../../img/located.jpg') no-repeat;    
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#view-route-section{
+    background: url('../../img/located.jpg') no-repeat;    
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    margin-top: 60px;
+}
+#login-section .form-control{
+    background-color:  darkgrey;
+    border: 1px solid #4e595f;
+}
+#login-section .btn-primary {
+    background-color: transparent;
+    border: 1px solid #4e595f;
+}
+#login-section .btn-primary:hover{
+    background-color: #4e555b;
+}
+#login-section{
+    margin-top: 60px;
+}
+.dark-overlay-view-route{
+    min-height: 950px;
+}
+
+.dark-overlay-view-route .display-4 {
+    text-align: center;
+}
+#view-route-section_view{
+    background: url('../../img/located.jpg') no-repeat;    
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    margin-top: 70px;
+}
+#navbar-list-4{
+    margin-left: 68%;
+}
+#main-footer {
+    background: url('../../img/located.jpg') no-repeat;
+}
+.form-signin .btn-block{
+    background: transparent;
+}
+.form-signin .btn-block:hover {
+    background: #6c757d;
+}
+#navbarDropdownMenuLink {
+    float: right;
+}
+#navbarDropdownMenuLink img{
+    object-fit: cover;
+}
+
+.column {
+/*	float: left; */
+	width: 90%;
+	padding: 0 0px;
+	left: 0;
+	right: 0;
+}
+.column .card {
+	background: transparent;
+	text-align: center;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+@include media-breakpoint-down(xs) {
+	.container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+#btnAddRoute:hover{
+	background: #6c757d;
+}
