@@ -114,45 +114,45 @@
 </section>
 
 <section id="services" class="bg-light">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<div class="p-5">
-				<h2>About us</h2>
-				<p class="lead">
-					<strong>Vayalena</strong>
-					is an online platform aimed at providing a new way of finding for transport to school for your
-					kids without having to ask around, especially at times of emergency.
-					Vayalena also accommodates those who need transport to work on a daily, looking for people(vehicle owners)
-					that are going to the same destination whom they can travel with.
-					The primary object of this initiative is to provide a technology-driven online platform
-					that makes of a more convenient way to find for transport at the comfort of your own
-					home or where ever you are using your smart device without having to go asking around.
-				</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="p-5">
+                <h2>About us</h2>
+                <p class="lead">
+                        <strong>Vayalena</strong>
+                        is an online platform aimed at providing a new way of finding for transport to school for your
+                        kids without having to ask around, especially at times of emergency.
+                        Vayalena also accommodates those who need transport to work on a daily, looking for people(vehicle owners)
+                        that are going to the same destination whom they can travel with.
+                        The primary object of this initiative is to provide a technology-driven online platform
+                        that makes of a more convenient way to find for transport at the comfort of your own
+                        home or where ever you are using your smart device without having to go asking around.
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="contact">
     <div class="container">
-            <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                            <div class="p-5">
-                            <h2>Contact us</h2>
-                            <p class="lead">Some content here here.....</p>
-                            </div>
-                    </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="p-5">
+                <h2>Contact us</h2>
+                <p class="lead">Some content here here.....</p>
+                </div>
             </div>
+        </div>
     </div>
 </section>
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
-	<div class="container">
-		<p class="m-0 text-center text-white">Copyright &copy; Vayalena 2019</p>
-	</div>
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Vayalena 2019</p>
+    </div>
 </footer>
 
 <script src="assets/vendor/jquery/jquery.min.js"></script>
