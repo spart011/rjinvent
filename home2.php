@@ -69,44 +69,7 @@
 			<div class="col-sm-6 mx-auto">
 				<div class="p-5">
 					<h2>Sign Up</h2>
-					<?php echo form_open('User/signup'); ?>
-					<?php echo validation_errors('<div style="width: 100%" class="alert alert-danger">','</div>'); ?>
-					<div class="form-group">
-						<label style="float: left">Name</label>
-						<input type="text" name="name" class="form-control form-control-sm" placeholder="Your name" >
-					</div>
-					<div class="form-group">
-						<label style="float: left">Cell</label>
-						<input type="number" name="cell" class="form-control form-control-sm" placeholder="Cell number" >
-					</div>
-					<div class="form-group">
-						<?php
-							$driver_chcked = (isset($_POST['usertype']) && $_POST['usertype'] == '1') ? 'checked' : '';
-							$passenger_chcked = (isset($_POST['usertype']) && $_POST['usertype'] == '2') ? 'checked' : '';
-						?>
-						<label style="float: left"> User type </label><br> <br>
-						Driver&nbsp;&nbsp;<input type="radio"  name="usertype" value="1" <?php echo $driver_chcked;?>  >
-						&nbsp;&nbsp;&nbsp;&nbsp;<br>
-						Transport seeker
-						<input type="radio"  name="usertype"  value="2" <?php echo $passenger_chcked;?> >
-					</div>
-
-					<div class="form-group">
-						<label style="float: left"> Physical address </label>
-						<textarea name="address"  class="form-control form-control-sm"> </textarea>
-					</div>
-
-					<div class="form-group">
-						<label style="float: left">Password</label>
-						<input type="password" name="passwd"  class="form-control form-control-sm" placeholder="Password" >
-					</div>
-					<div class="form-group">
-						<label style="float: left">Repeat password</label>
-						<input type="password" name="passwd_repeat"  class="form-control form-control-sm" placeholder="Repeat Password"  >
-					</div>
-					<!-- button -->
-					<button type="submit" class="btn btn-outline-dark btn-block" id="btn" > Submit </button>
-					<?php echo form_close() ?>
+					
 				</div>
 			</div>
 		</div>
