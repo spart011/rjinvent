@@ -1,14 +1,10 @@
 version 0.2
-phases:
-  pre_build:
+phases:pre_build:
     commmands:
     - echo "Entered pre-build phase"
-  build:
-    commands:
+  build:commands:
     - echo "Entered build phase"
-  post_build:
-    commands:
+  post_build:commands:
     - echo "Entered the post-build phase"
-artifacts:
-  files:
+artifacts:files:
     - deploy/**/*
