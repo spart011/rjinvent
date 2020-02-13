@@ -71,7 +71,7 @@
                                                 <label>Password</label>
                                         </div>
                                         <button class="btn btn-lg btn-primary btn-block text-uppercase text-dark" type="submit" >Sign in</button>
-                                        
+					    <a href="forgotpasswd.html"> forgot password </a>
                                     </div>
 				</div>
 			</div>
