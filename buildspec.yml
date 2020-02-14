@@ -11,4 +11,4 @@ phases:
     - echo "Entered the post-build phase"
 artifacts:
     files:
-    - '*//*'
+    - '**/*'
